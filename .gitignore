@@ -1,0 +1,30 @@
+.idea/
+# Created by https://www.gitignore.io/api/scala,sbt,idea,git,.idea
+
+#!! ERROR: .idea is undefined. Use list command to see defined gitignore types !!#
+
+### Git ###
+*.orig
+
+#!! ERROR: idea is undefined. Use list command to see defined gitignore types !!#
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+### Scala ###
+*.class
+*.log
+
+
+# End of https://www.gitignore.io/api/scala,sbt,idea,git,.idea
