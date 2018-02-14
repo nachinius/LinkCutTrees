@@ -6,8 +6,6 @@ description := "A Link Cut Tree implemenation (performs very fast path aggregati
 val repo = name
 val username = "nachinius"
 
-version := "0.1"
-
 scalaVersion := "2.12.4"
 
 val scalaTestVersion = "3.0.4"
