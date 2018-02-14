@@ -2,10 +2,12 @@
 
 A collection of trees
 
-with operations
+with operations **O(lg n)** per operation (amortized)
 - maketree
 - link(v,w)
 - cut(v)
 - findroot(v)
 - pathaggregate(v)
-in **O(lg n)** per operation
+
+
+
