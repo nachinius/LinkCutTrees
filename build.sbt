@@ -18,10 +18,8 @@ val scalaCheckVersion = "1.13.4"
 libraryDependencies += "org.scalacheck" %% "scalacheck" % scalaCheckVersion % "test"
 //libraryDependencies += "org.scalacheck" %% "scalacheck" % scalaCheckVersion
 
-val splayTreesVersion = "0.1"
+val splayTreesVersion = "0.1.1"
 libraryDependencies += "com.nachinius" %% "splaytrees" % splayTreesVersion
-
-coverageEnabled := true
 
 homepage := Some(url(s"https://github.com/$username/$repo"))
 licenses += "Apache License 2.0" -> url(s"https://github.com/$username/$repo/blob/master/LICENSE")
