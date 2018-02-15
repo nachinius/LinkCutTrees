@@ -3,7 +3,7 @@ name := "LinkCutTrees"
 
 organization := "com.nachinius"
 description := "A Link Cut Tree implemenation (performs very fast path aggregations"
-val repo = name
+val repo = "LinkCutTrees"
 val username = "nachinius"
 
 scalaVersion := "2.12.4"
@@ -30,7 +30,7 @@ developers := List(
 )
 
 publishMavenStyle := true
-publishArtifact in Test := false
+publishArtifact in Test := true
 
 
 publishTo := Some(if (isSnapshot.value) Opts.resolver.sonatypeSnapshots else Opts.resolver.sonatypeStaging)
