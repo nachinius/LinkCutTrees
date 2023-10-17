@@ -15,5 +15,6 @@ with operations **O(lg n)** per operation (amortized)
 - findroot(v)
 - pathaggregate(v)
 
-
+# Ref
+[1] https://en.wikipedia.org/wiki/Link/cut_tree
 
